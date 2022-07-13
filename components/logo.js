@@ -23,7 +23,7 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
-
+  
   return (
     <Link href="/" scroll={false}>
       <a>
@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            Pushkar Waykole
           </Text>
         </LogoBox>
       </a>
